@@ -1,0 +1,1 @@
+DevOps combines development and operations to enable CI/CD, automation and faster releases.
