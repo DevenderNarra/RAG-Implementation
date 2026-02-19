@@ -9,7 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key="AIzaSyCQTeIgx3mex3NtmCLitK5ujpdbKTWggPA",
+    google_api_key=os.environ.get("GOOGLE_API_KEY"),
     temperature=0.5
 )
 
